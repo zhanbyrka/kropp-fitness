@@ -24,4 +24,10 @@
     color: transparent;
     -webkit-text-stroke: 1px var(--color-dark-gray);
   }
+
+  &.centered::after {
+    top: -0.25em;
+    left: 50%;
+    translate: -50% 0;
+  }
 }
