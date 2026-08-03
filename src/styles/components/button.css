@@ -23,3 +23,9 @@
     scale: 0.95;
   }
 }
+
+@media (max-width: 767px) {
+  .button {
+    padding-inline: 18px;
+  }
+}
