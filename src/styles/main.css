@@ -4,7 +4,11 @@
 @import './base/globals.css';
 @import './base/utils.css';
 
+@import './utilities/typography.css';
+@import './utilities/backdrop-title.css';
+
 @import './components/button.css';
 
 @import './layout/header.css';
 @import './layout/banner.css';
+@import './layout/motivation.css';
