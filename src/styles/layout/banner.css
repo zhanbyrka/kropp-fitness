@@ -21,7 +21,7 @@
   &::before {
     content: '';
     width: clamp(60px, 10.1vw, 194px);
-    height: clamp(60px, 10.1vw, 194px);
+    aspect-ratio: 1;
     margin-right: 30px;
     background: url('../../assets/icons/bold-arrow-down-right.svg') center / contain no-repeat;
   }
@@ -52,7 +52,7 @@
   &::after {
     content: '';
     width: 10px;
-    height: 10px;
+    aspect-ratio: 1;
     border: var(--border);
     border-radius: 50%;
     transition-duration: var(--transition-duration);
